@@ -22,7 +22,7 @@ export default function Home() {
           <TypeWriter />
         </div>
         <div className="m-4">
-          <p>
+          <p className="text-justify">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
             assumenda repudiandae explicabo quisquam sequi optio sint dicta.
             Ipsam asperiores optio recusandae? Perspiciatis officiis sequi omnis
