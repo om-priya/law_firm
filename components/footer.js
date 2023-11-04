@@ -1,6 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
 import { BiLogoPinterestAlt } from "react-icons/bi";
+import Image from "next/image";
 
 function Footer() {
   const iconsTab = [
@@ -17,8 +18,10 @@ function Footer() {
           <div className="flex justify-between flex-col md:flex-row  items-center md:items-start  md:gap-[5rem] text-left">
             {/* logo side */}
             <div className="flex flex-col w-1/2 md:p-0 py-4 gap-8">
-              <img
-                src={"https://i.imgur.com/520zDfd.png"}
+              <Image
+                src="/images/logo-transparent-png.png"
+                width={300}
+                height={300}
                 alt="footer_logo"
                 className="w-[18rem]"
               />
