@@ -15,7 +15,7 @@ const Navbar = () => {
           <BsFire size={30} color="#7752FE" />
           <Link href={"/"}>
             <h1 className="text-2xl font-semibold hover:scale-110 text-[#7752FE]">
-              Firm Name
+              Law Locatus
             </h1>
           </Link>
         </div>

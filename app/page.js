@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <section className="flex flex-col justify-center items-center gap-5">
         <div className="font-semibold text-6xl sm:text-7xl text-[#7752FE] text-center">
-          Law Firm Name
+          Law Locatus Advocates & Solicitors
         </div>
         <div className="text-center mb-6">
           <TypeWriter />
